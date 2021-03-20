@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="@string/add_to_do"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:background="@color/qizgish"/>
+
+    <EditText
+        android:id="@+id/edt_to_do_name"
+        style="@style/edit_style"
+        android:hint="@string/to_do_name"
+        />
+    <EditText
+        android:id="@+id/edt_to_do_description"
+        style="@style/edit_style"
+        android:hint="@string/to_do_description"
+        />
+    <Spinner
+        style="@style/edit_style"
+        android:id="@+id/spiner_add_to_do"
+        />
+    <EditText
+        android:id="@+id/edt_to_do_create_data"
+        style="@style/edit_style"
+        android:hint="@string/to_do_create_data"
+        />
+    <EditText
+        android:id="@+id/edt_dedline"
+        style="@style/edit_style"
+        android:hint="@string/to_do_dedline"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="right"
+        android:id="@+id/btn_save_add_to_do"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:backgroundTint="@color/qizgish"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="50dp"/>
+
+</LinearLayout>

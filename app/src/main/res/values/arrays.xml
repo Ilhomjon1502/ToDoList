@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spiner_array">
+        <item>
+            Android
+        </item>
+        <item>
+            Kotlin
+        </item>
+        <item>
+            Flutter
+        </item>
+    </string-array>
+</resources>
